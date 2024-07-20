@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    perspective: 1000px; /* Add perspective to create 3D effect */
+}
+
+input[type="text"] {
+    width: 20%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    transform: translateZ(20px); /* Add 3D effect to input fields */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+input[type="button"] {
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    transform: translateZ(20px); /* Add 3D effect to buttons */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+input[type="button"]:hover {
+    background-color: #3e8e41;
+    transform: translateZ(30px); /* Add 3D effect on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    transform: translateZ(10px); /* Add 3D effect to table */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f0f0f0;
+}
